@@ -1,0 +1,28 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+
+<!-- Main section -->
+<main>
+  
+    <!-- New member form -->
+    <h2>Ajouter un(e) Argonaute</h2>
+    <form class="new-member-form" action="/" method="post">
+      <label for="name">Nom de l&apos;Argonaute</label>
+      <input id="name" name="name" type="text" placeholder="Charalampos" />
+      <input type="submit" value="Valider">
+    </form>
+    {% if errors is not empty %}
+      <p class="errors">{{errors}}</p> 
+    {% endif %}
+    <!-- Member list -->
+    <h2>Membres de l'équipage</h2>
+    <section class="member-list">
+    {% for argonaute in argonautes %}
+      <p class="member-item">{{argonaute.name}}</p>
+    {% endfor %}
+    </section>
+  </main>
+
+{% endblock %}
+
