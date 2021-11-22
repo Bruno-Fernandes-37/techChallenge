@@ -19,7 +19,7 @@
     <h2>Membres de l'équipage</h2>
     <section class="member-list">
     {% for argonaute in argonautes %}
-      <p class="member-item">{{argonaute.name}}</p>
+      <p class="member-item"><a href="modifylist?id={{argonaute.id}}">{{argonaute.name}}</a></p>
     {% endfor %}
     </section>
   </main>

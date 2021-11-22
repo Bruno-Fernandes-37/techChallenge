@@ -15,7 +15,7 @@ class HomeController extends AbstractController
      * @throws \Twig\Error\SyntaxError
      */
 
-    private string $errors = "";
+    
 
     public function index(): string
     {

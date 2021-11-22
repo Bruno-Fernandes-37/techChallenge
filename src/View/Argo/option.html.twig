@@ -1,0 +1,34 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+
+<!-- Main section -->
+<main>
+  
+    <!-- New member form -->
+    <h2>L' Argonaute: {{argonaute.name}}</h2>
+
+    <h3><a href="/">Retour a la liste des membres de l'équipage</a></h3> 
+
+
+
+
+
+
+
+    
+    <form class="new-member-form" action="/edit?id={{argonaute.id}}" method="post">
+      <label for="name">Modifier le nom de l&apos;Argonaute</label>
+      <input id="name" name="name" type="text" placeholder="Charalampos" />
+      <input type="submit" value="Valider">
+    </form>
+    {% if errors is not empty %}
+      <p class="errors">{{errors}}</p> 
+    {% endif %}
+    <form class="new-member-form" action="/delete?id={{argonaute.id}}" method="post">
+      <label for="name">Supprimer l&apos;Argonaute de la liste</label>
+      <input type="submit" value="Supprimer">
+    </form>
+  </main>
+
+{% endblock %}
