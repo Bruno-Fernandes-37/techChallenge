@@ -1,11 +1,20 @@
-# DefendTheCastle
+# Argonauts list
 
-Project 2 of the dev (php) training at the Wild Code School (Sept 2021 class)
+this is the technical challenge required by the Wild Code School for admission to advanced dev training.
 
 ## Description: 
-For our second project at the Wild Code School, we were asked to make a game, based on a "defend the castle" game. We had to make the development in php for the back-end and we were quite free for the front-end as long as you are passionate about Twig views. All this on a simple MVC structure. Our trainer gave us the basics of this structure. He uses nice providers/libraries such as Twig and Grumphp.
+Pour aider Jason, vous allez :
 
-The mechanics of our game are as follows: all games are cooperative, all players play to defend their castle with the same castle. At each turn a player will select a troop, which will fight an enemy troop. At the end of the battle, the difference in power between the two battles will be added or subtracted from the castle's score.
+    1. Créer une application web simple dans votre langage de prédilection.
+    2. Stocker les données de cette application dans une base de données.
+
+L'application ne comportera qu'une seule page.
+
+Nous imposons très peu de contraintes au niveau technique :
+
+    Vous pouvez utiliser n'importe quel système de base de données : SQL (MySQL, PostgreSQL, etc.), NoSQL (MongoDB, etc.), voire Firebase (ou toute autre base de données "serverless")
+    Vous pouvez utiliser n'importe quel langage, bibliothèque, framework, voire combinaison de plusieurs technologies : cela peut être le cas si vous travaillez avec une bibliothèque ou un framework front-end tel que React ou Angular, et que vous écrivez par ailleurs une application back-end.
+
 
 ## Steps:
 1. Clone the repo from Github.
@@ -37,12 +46,4 @@ We have now entered our different routes (url) in the file `route.php` as well a
 
 ### Authors:
 
-#### Developers
-* Caroline Crépin
-* Élodie Daubié
-* Soufiane Aït Ouarraou
-* Sébastien Violante
 * Bruno Fernandes
-
-#### Formateur:
-* Romain Clair
