@@ -3,17 +3,19 @@
 this is the technical challenge required by the Wild Code School for admission to advanced dev training.
 
 ## Description: 
-Pour aider Jason, vous allez :
+To help Jason, you will:
 
-    1. Créer une application web simple dans votre langage de prédilection.
-    2. Stocker les données de cette application dans une base de données.
+    1. Create a simple web application in your preferred language.
+    2. Store the data from this application in a database.
 
-L'application ne comportera qu'une seule page.
+The application will have only one page.
 
-Nous imposons très peu de contraintes au niveau technique :
+We impose very few technical constraints:
 
-    Vous pouvez utiliser n'importe quel système de base de données : SQL (MySQL, PostgreSQL, etc.), NoSQL (MongoDB, etc.), voire Firebase (ou toute autre base de données "serverless")
-    Vous pouvez utiliser n'importe quel langage, bibliothèque, framework, voire combinaison de plusieurs technologies : cela peut être le cas si vous travaillez avec une bibliothèque ou un framework front-end tel que React ou Angular, et que vous écrivez par ailleurs une application back-end.
+    You can use any database system: SQL (MySQL, PostgreSQL, etc.), NoSQL (MongoDB, etc.), or even Firebase (or any other serverless database)
+    You can use any language, library, framework, or even a combination of several technologies: this can be the case if you work with a front-end library or framework such as React or Angular, and you also write a back-end application.
+
+Translated with www.DeepL.com/Translator (free version)
 
 
 ## Steps:

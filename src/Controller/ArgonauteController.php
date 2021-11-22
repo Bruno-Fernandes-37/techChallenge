@@ -6,6 +6,10 @@ use App\Model\ArgonauteManager;
 
 class ArgonauteController extends AbstractController
 {
+
+    /**
+     * displays one argonaute
+     */
     public function selectOption($id): string
     {
         if (filter_has_var(INPUT_GET, "id")) {
@@ -26,7 +30,9 @@ class ArgonauteController extends AbstractController
         }
     }
 
-
+    /**
+     * control and update name of one argonaute
+     */
     public function edit($id)
     {
         if (filter_has_var(INPUT_GET, "id")) {
@@ -58,6 +64,10 @@ class ArgonauteController extends AbstractController
         }
     }
 
+
+    /**
+     * delete one argonaute
+     */
     public function delete($id): string
     {
         if (filter_has_var(INPUT_GET, "id")) {

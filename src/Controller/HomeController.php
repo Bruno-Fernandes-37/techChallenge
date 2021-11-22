@@ -15,7 +15,9 @@ class HomeController extends AbstractController
      * @throws \Twig\Error\SyntaxError
      */
 
-    
+    /**
+     * displays and controls the form to add an argonaut and the list 
+     */
 
     public function index(): string
     {
