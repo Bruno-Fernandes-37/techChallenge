@@ -11,5 +11,4 @@ use App\Controller\FormController;
 
 return [
     '' => ['HomeController', 'index',],
-    'modifylist' => ['ArgonauteController', 'selectOption', ['id']],
 ];
