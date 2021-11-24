@@ -1,4 +1,4 @@
-DROP TABLE `argonautes` IF EXISTS;
+DROP TABLE IF EXISTS `argonautes`;
 
 CREATE TABLE `argonautes` (
   `id` INT NOT NULL AUTO_INCREMENT,
