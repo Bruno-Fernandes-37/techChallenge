@@ -18,6 +18,7 @@ class ArgonauteController extends AbstractController
                 header('Location: /');
                 return "";
             }
+            $id =intval($id); 
             $argonautesManager = new ArgonauteManager();
             $argonaute = $argonautesManager->selectOneById($id);
             if (empty($argonaute)) {
@@ -41,6 +42,7 @@ class ArgonauteController extends AbstractController
                 header('Location: /');
                 return "";
             }
+            $id =intval($id);
             $argonautesManager = new ArgonauteManager();
             $argonaute = $argonautesManager->selectOneById($id);
             if (empty($argonaute)) {
@@ -76,6 +78,7 @@ class ArgonauteController extends AbstractController
                 header('Location: /');
                 return "";
             }
+            $id =intval($id);
             $argonautesManager = new ArgonauteManager();
             $argonaute = $argonautesManager->selectOneById($id);
             if (empty($argonaute)) {

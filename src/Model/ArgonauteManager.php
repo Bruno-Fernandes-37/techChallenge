@@ -23,7 +23,7 @@ class ArgonauteManager extends AbstractManager
         update name of Argonaute in databases
     */
 
-    public function updateArgonaute($id, $name): void
+    public function updateArgonaute(int $id, string $name): void
     {
         $name = strtolower($name);
         $name = ucwords($name);
@@ -36,7 +36,7 @@ class ArgonauteManager extends AbstractManager
     /*
         delete Argonaute from databases
     */
-    public function deleteArgonaute($id): void
+    public function deleteArgonaute(int $id): void
     {
         $statement = $this->pdo->prepare("DELETE FROM " . static::TABLE . " WHERE id = :id ;");
         $statement->bindValue(':id', $id, \PDO::PARAM_INT);
